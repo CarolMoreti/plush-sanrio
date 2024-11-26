@@ -1,0 +1,29 @@
+.logo{
+    width: 80px;
+}
+header .container{
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-color: var(--back);
+}
+header .icon{
+    width: 30px;
+}
+header .left-header, .right-header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header input{
+    width: 950px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    border: var(--secundary);
+}

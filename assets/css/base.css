@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geist Mono';
+}
+:root{
+    --text:#2A1233;
+    --stroke:#593866;
+    --back:#F3D4FF;
+    --back-secundary:#8E7399;
+    --primary:#E6A6FF;
+    --secundary:#fff;
+}
+.container{
+    margin:60px 40px 20px 40px;
+}
+.button{
+    background-color:var(--primary);
+    border-radius: 20px;
+    padding:20px;
+    color: var(--secundary);
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: var(--back-secundary);
+    color: var(--back);
+}

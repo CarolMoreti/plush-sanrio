@@ -1,0 +1,15 @@
+.logo{
+    width: 80px;
+}
+footer .container{
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: var(--back-secundary);
+    color:var(--secundary);
+}
