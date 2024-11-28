@@ -1,16 +1,22 @@
 main .container{
     display: flex;
     flex-direction: column;
-    height: 1080px;
+}
+.detail-rate{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.detail-rate p{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 55px;
 }
 .stars{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.stars p{
-    font-size: 30px;
+    align-items: center;
 }
 .star{
     width: 50px;
@@ -28,12 +34,28 @@ main .container{
 }
 .image{
     width: 100px;
+    height: 100px;
     border-radius: 20px;
+    box-shadow: 0px 0px 30px #ececec;
 }
 .right-div p{
     margin-bottom: 50px;
+    font-size: 25px;
+}
+.right-div{
+    width: 50%;
+}
+.right-div .price{
+    font-size: 50px;
 }
 .image-main{
     border-radius: 20px;
     width: 500px;
+    height:500px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 40px 40px 30px 40px;
 }
