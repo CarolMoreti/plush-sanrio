@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 900px) {
     *{
       margin: 0;
       padding: 0;
@@ -189,7 +189,7 @@
     }
     .slide-container{
       width: 100vw;
-      height: 600px; 
+      height: 400px; 
       margin: 0;
       overflow: hidden;
       position: relative;
@@ -203,7 +203,7 @@
     }
     .slider-image{
       width: 100vw;
-      height: 600px;
+      height: 400px;
       object-fit: cover;
     }
     .button-container{
@@ -254,3 +254,4 @@
       100%{transform: translateX(0);}
     }
   }
+  
