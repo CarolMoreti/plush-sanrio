@@ -6,6 +6,9 @@
     <title>SF | Hello Kitty</title>
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/detail.css">
+    
 </head>
 <body>
     <header>
@@ -21,5 +24,69 @@
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <div class="main">
+                <div class="left-div">
+                    <img src="./assets/img/hello-kitty/hello-kitty2-hero.png" alt="" class="image-main" id="image">
+                </div>
+                <div class="right-div">
+                    <h1>Hello Kitty Plush</h1>
+                    <div class="stars">
+                        <img src="./assets/img/star.png" alt="" class="star">
+                        <img src="./assets/img/star.png" alt="" class="star">
+                        <img src="./assets/img/star.png" alt="" class="star">
+                        <img src="./assets/img/star.png" alt="" class="star">
+                        <img src="./assets/img/star.png" alt="" class="star">
+                        <p>5</p>
+                    </div>
+                    <p>$70.99</p>
+                    <P>Leve a Hello Kitty para casa! Pelúcia super fofa para colecionadores.</P>
+                    <a href="#" class="button">Adicione ao Carrinho</a>
+                </div>
+            </div>
+            <div class="images">
+                <a href="" class="image" id="1"><img src="./assets/img/hello-kitty/hello-kitty-hero.jpg" alt="" class="image"></a>
+                <a href="" class="image" id="2"><img src="./assets/img/hello-kitty/hello-kitty2-hero.png" alt="" class="image"></a>
+                <a href="" class="image" id="3"><img src="./assets/img/hello-kitty/hello-kitty.png" alt="" class="image"></a>
+                <a href="" class="image" id="4"><img src="./assets/img/hello-kitty/hello-kitty2.png" alt="" class="image"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="" class="logo">
+            </div>
+            <div class="links">
+                <p>Copyright | Carolline Moreti</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script>
+    let mainI = document.getElementById('image')
+    let i1 = document.getElementById('1')
+    let i2 = document.getElementById('2')
+    let i3 = document.getElementById('3')
+    let i4 = document.getElementById('4')
+    i1.addEventListener("click", function(e){
+        mainI.setAttribute('src','./assets/img/hello-kitty/hello-kitty-hero.jpg')
+    })
+    i2.addEventListener("click", function(e){
+        mainI.setAttribute('src','./assets/img/hello-kitty/hello-kitty2-hero.png')
+    })
+    i3.addEventListener("click", function(e){
+        mainI.setAttribute('src','./assets/img/hello-kitty/hello-kitty.png')
+    })
+    i4.addEventListener("click", function(e){
+        mainI.setAttribute('src','./assets/img/hello-kitty/hello-kitty2.png')
+    })
+   
+   
+            
+   
+            
+    
+</script>
 </html>

@@ -1,0 +1,39 @@
+main .container{
+    display: flex;
+    flex-direction: column;
+    height: 1080px;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.stars p{
+    font-size: 30px;
+}
+.star{
+    width: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-div{
+    color: #fff;
+    width: 500px;
+    border-radius: 20px;
+}
+.image{
+    width: 100px;
+    border-radius: 20px;
+}
+.right-div p{
+    margin-bottom: 50px;
+}
+.image-main{
+    border-radius: 20px;
+    width: 500px;
+}
